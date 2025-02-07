@@ -1,9 +1,9 @@
 body {
   background-color: #221f1f !important;
-  color: #f5f5f1 !important;
+  color: #f5f5f1 !important; /* questo e da commentare per per la pagina settings */
 }
 /* body {
-  background-color: white;
+  background-color: white;                        questo e da decommentare per la pagina settings
   color: #808080;
 } */
 .navbar {
