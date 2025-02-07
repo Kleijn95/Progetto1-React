@@ -51,7 +51,7 @@ class Cards extends Component {
     }
 
     return (
-      <Container fluid className="px-4">
+      <Container fluid className="px-5">
         <h4>{this.props.title}</h4>
 
         {/* Se c'è un errore, mostra l'Alert */}
@@ -64,7 +64,7 @@ class Cards extends Component {
           </Alert>
         )}
 
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 gx-2 px-2">
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 gx-2">
           {movies.map((movie) => (
             <Col key={movie.imdbID} className="colFilms mb-3 text-center">
               <img src={movie.Poster} alt={movie.Title} className="img-fluid" />

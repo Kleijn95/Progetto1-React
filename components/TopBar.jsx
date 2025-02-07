@@ -1,4 +1,4 @@
-import { Container, Dropdown, Nav, Navbar } from "react-bootstrap";
+import { Container, Dropdown, FormGroup, Nav, Navbar } from "react-bootstrap";
 import "./TopBar.css";
 import { BellFill, Search } from "react-bootstrap-icons";
 
@@ -30,6 +30,12 @@ const TopBar = (props) => {
             </Nav.Link>
           </Nav>
           <Nav className="align-items-center">
+            <FormGroup id="searchForm" class="d-flex my-2 my-lg-0 " role="search">
+              <input className="form-control me-2" type="search" placeholder="Cerca sul sito" aria-label="Search" />
+              <button className="btn btn-outline-danger my-2 my-sm-0 mx-2" type="submit">
+                Cerca
+              </button>
+            </FormGroup>
             <Nav.Link href="#">
               <Search color="white" />
             </Nav.Link>

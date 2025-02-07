@@ -10,7 +10,7 @@
   border-color: v !important;
 }
 
-a {
+.footer-container a {
   text-decoration: none !important;
   color: #838383 !important;
   font-size: 0.8em !important;
