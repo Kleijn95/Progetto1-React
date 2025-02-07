@@ -13,9 +13,9 @@ function App() {
     <>
       <TopBar src="../netflix_logo.png" width="100px" height="55px" />
       <UpperSection></UpperSection>
-      <Cards title="Marvel" searchQuery="Avengers"></Cards>
+      <Cards title="My Hero Academia" searchQuery="hero+academia"></Cards>
       <Cards title="Attack On Titan" searchQuery="Attack+On+Titan"></Cards>
-      <Cards title="Transformers" searchQuery="Transformers"></Cards>
+      <Cards title="Avengers" searchQuery="avengers"></Cards>
       <Footer></Footer>
       {/* <SettingsPage
         email="student@gmail.com"

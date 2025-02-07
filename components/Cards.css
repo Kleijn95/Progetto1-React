@@ -6,5 +6,5 @@
   width: 100%; /* Occupa tutta la larghezza del contenitore */
   aspect-ratio: 1.84 / 1; /* Mantiene la proporzione 2:1 */
   object-fit: cover; /* Ritaglia l'immagine senza distorsioni */
-  object-position: center top;
+  object-position: center bottom;
 }
