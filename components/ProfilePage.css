@@ -1,0 +1,36 @@
+.iconPen {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  color: white !important;
+  cursor: pointer;
+  overflow: visible;
+}
+
+body {
+  background-color: #221f1f !important;
+}
+
+#containerProfile {
+  color: white !important;
+}
+
+#containerProfile p {
+  color: #838383 !important;
+}
+
+#containerProfile Button {
+  color: #838383 !important;
+  background-color: #221f1f;
+  border-radius: 0;
+  border: solid 1px #838383;
+}
+
+#containerProfile Button:hover {
+  background-color: white;
+}

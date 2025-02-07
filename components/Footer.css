@@ -1,0 +1,17 @@
+.footer-btn {
+  background-color: #221f1f !important;
+  color: inherit !important;
+  border-color: #838383;
+  font-size: 0.8em !important;
+}
+
+.footer-container {
+  color: #838383 !important;
+  border-color: v !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #838383 !important;
+  font-size: 0.8em !important;
+}
