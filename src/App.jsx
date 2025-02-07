@@ -13,9 +13,12 @@ function App() {
     <>
       <TopBar src="../netflix_logo.png" width="100px" height="55px" />
       <UpperSection></UpperSection>
-      <Cards title="My Hero Academia" searchQuery="hero+academia"></Cards>
-      <Cards title="Attack On Titan" searchQuery="Attack+On+Titan"></Cards>
-      <Cards title="Avengers" searchQuery="avengers"></Cards>
+      {/* <Cards title="My Hero Academia" searchQuery="My+Hero+Academia"></Cards>
+      <Cards title="Attack On Titan" searchQuery="attack+on+Titan"></Cards>
+      <Cards title="Avengers" searchQuery="avengers"></Cards> */}
+      <Cards searchQuery="My+Hero+Academia"></Cards>
+      <Cards searchQuery="attack+on+Titan"></Cards>
+      <Cards searchQuery="avengers"></Cards>
       <Footer></Footer>
       {/* <SettingsPage
         email="student@gmail.com"

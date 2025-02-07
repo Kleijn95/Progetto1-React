@@ -52,7 +52,7 @@ class Cards extends Component {
 
     return (
       <Container fluid className="px-5">
-        <h4>{this.props.title}</h4>
+        <h4>{this.props.searchQuery.replace(/\+/g, " ").replace(/\b\w/g, (char) => char.toUpperCase())}</h4>
 
         {/* Se c'è un errore, mostra l'Alert */}
         {error && (
